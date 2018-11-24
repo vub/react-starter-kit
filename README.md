@@ -1,29 +1,43 @@
-# react-starter-kit
+# React starter kit
 
-A web starter kit from Vu Bui
+A production already web starter kit from Vu Bui
 
-## Feature
+## Feature & tools had import
 
-- ExpressJs
+Front-end
+
 - React
 - Redux
-  
-- Webpack
-- Eslint
 - Scss
 - Pug
 
+Back-end
+
+- ExpressJs
+- Webpack
+
+Testing & code quality
+
+- Eslint
 - Mocha
 - Chai
 - Sinon
 
+Dev-ops
+
 - Multy enviroments
+- Docker
+- Cicle CI
+
+## Feature wish to have
+
+- Multy language support
 
 ## Step that I make this repo
 
 1. Init npm
 2. Install express js to project
-3. Install express generator, learn the architechture then copy files in to this project
+3. Install express generator, learn the architechture then imitate in to this project
 
 ## News I had learn through this so far
 
