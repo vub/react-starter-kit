@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import Header from '../layout/header';
-import Footer from '../layout/footer';
+import Header from './Header';
+import Footer from './Footer';
 
 function mapStateToProps(state) {
   return _.merge({}, state.common);

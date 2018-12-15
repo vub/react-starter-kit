@@ -43,13 +43,13 @@ function Header(props) {
         <div className="collapse navbar-collapse justify-content-end">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to={`/profile/${window.user.id}`}>
+              {/* <Link to={`/profile/${window.user.id}`}>
                 <strong className="text-secondary">
                   Hi,
                   {' '}
                   {getDisplayName()}
                 </strong>
-              </Link>
+              </Link> */}
             </li>
             {
               window.serviceCode && (
