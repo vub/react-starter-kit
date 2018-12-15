@@ -1,0 +1,17 @@
+.fixed-plugin {
+  position: absolute;
+  bottom: 85px;
+  right: -45px;
+  background: rgba(0, 0, 0, .25);
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fixed-plugin i {
+  color: #FFFFFF;
+  font-size: 26px;
+  padding: 10px;
+  border-radius: 0 0 6px 6px;
+  width: auto;
+}

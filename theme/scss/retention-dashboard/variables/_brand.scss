@@ -1,0 +1,23 @@
+//https://company-30254.frontify.com/d/kV1BhDrEnSGq/eyeq-style-guide#/basics/colors
+$primary-gradient-start: #8EC5FC !default;
+$primary-gradient-end: #E0C3FC !default;
+$primary-gradient: linear-gradient(0deg, $primary-gradient-start, $primary-gradient-end);
+
+$opacity-primary-gradient-start: rgba(142, 197, 252, 0.8) !default;
+$opacity-primary-gradient-end: rgba(224, 195, 252, 0.8) !default;
+$opacity-primary-gradient: linear-gradient(0deg, $opacity-primary-gradient-start, $opacity-primary-gradient-end);
+
+$brand-primary: #5cabfa !default;
+$brand-primary-200: #E0C3FC !default;
+
+$brand-info: #57C4D3 !default;
+$brand-success: #28a745 !default;
+$brand-warning: #EDBD7A !default;
+$brand-danger: #D14851 !default;
+$brand-rose: $pink-500 !default;
+
+$brand-inverse: #08253A !default;
+$brand-secondary: #A3A3A3 !default;
+
+// overide colors
+$black-color: #454545 !default;

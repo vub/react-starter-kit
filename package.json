@@ -44,7 +44,12 @@
     "redux-logger": "^3.0.6"
   },
   "devDependencies": {
+    "css-loader": "^2.0.1",
+    "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   }
