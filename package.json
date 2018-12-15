@@ -4,9 +4,10 @@
   "description": "First starter kit from Vu Bui",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "startD": "DEBUG=react-starter-kit:* & npm start",
-    "test": "mocha"
+    "test": "mocha",
+    "webpack": "./node_modules/.bin/webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,20 @@
   },
   "homepage": "https://github.com/vub/react-starter-kit#readme",
   "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "^4.16.4",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "nodemon": "^1.18.9",
     "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
