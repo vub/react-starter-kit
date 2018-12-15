@@ -35,7 +35,8 @@ function SideBar(props) {
         <div className="row">
           <div className="col-6 offset-3">
             <a href="" className="simple-text logo-normal">
-              <img src={`/public/img/${logo}.png`} className="logo-img" alt="" />
+              {/* <img src={`/public/image/${logo}.png`} className="logo-img" alt="" /> */}
+              <h4>Dashboard</h4>
             </a>
           </div>
         </div>
